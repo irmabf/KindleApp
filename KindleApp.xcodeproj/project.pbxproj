@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B72C16EE20622FF5005CB1AF /* steve_jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B72C16EC20622FF5005CB1AF /* steve_jobs.jpg */; };
-		B72C16EF20622FF5005CB1AF /* bill_gates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B72C16ED20622FF5005CB1AF /* bill_gates.jpg */; };
 		B72C16F2206232AB005CB1AF /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72C16F1206232AB005CB1AF /* BookCell.swift */; };
 		B7551571206CAC500050C98E /* BookPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7551570206CAC500050C98E /* BookPagerController.swift */; };
 		B7E1BBB6206CC9CF00159F9F /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E1BBB5206CC9CF00159F9F /* PageCell.swift */; };
-		B7E1BBB8206CDC1600159F9F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = B7E1BBB7206CDC1600159F9F /* Contents.json */; };
 		B7E629AA206206090034BB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E629A9206206090034BB75 /* AppDelegate.swift */; };
 		B7E629AC206206090034BB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E629AB206206090034BB75 /* ViewController.swift */; };
 		B7E629AF206206090034BB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E629AD206206090034BB75 /* Main.storyboard */; };
@@ -23,12 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B72C16EC20622FF5005CB1AF /* steve_jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve_jobs.jpg; sourceTree = "<group>"; };
-		B72C16ED20622FF5005CB1AF /* bill_gates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bill_gates.jpg; sourceTree = "<group>"; };
 		B72C16F1206232AB005CB1AF /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		B7551570206CAC500050C98E /* BookPagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPagerController.swift; sourceTree = "<group>"; };
 		B7E1BBB5206CC9CF00159F9F /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
-		B7E1BBB7206CDC1600159F9F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		B7E629A6206206090034BB75 /* KindleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E629A9206206090034BB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7E629AB206206090034BB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,16 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B72C16F020623001005CB1AF /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				B7E1BBB7206CDC1600159F9F /* Contents.json */,
-				B72C16ED20622FF5005CB1AF /* bill_gates.jpg */,
-				B72C16EC20622FF5005CB1AF /* steve_jobs.jpg */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		B7E6299D206206090034BB75 = {
 			isa = PBXGroup;
 			children = (
@@ -83,7 +67,6 @@
 				B7E629AB206206090034BB75 /* ViewController.swift */,
 				B7551570206CAC500050C98E /* BookPagerController.swift */,
 				B7E1BBB5206CC9CF00159F9F /* PageCell.swift */,
-				B72C16F020623001005CB1AF /* Assets */,
 				B7E629A9206206090034BB75 /* AppDelegate.swift */,
 				B7E629AD206206090034BB75 /* Main.storyboard */,
 				B7E629B0206206090034BB75 /* Assets.xcassets */,
@@ -164,11 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E629B4206206090034BB75 /* LaunchScreen.storyboard in Resources */,
-				B72C16EE20622FF5005CB1AF /* steve_jobs.jpg in Resources */,
 				B7E629B1206206090034BB75 /* Assets.xcassets in Resources */,
-				B72C16EF20622FF5005CB1AF /* bill_gates.jpg in Resources */,
 				B7E629AF206206090034BB75 /* Main.storyboard in Resources */,
-				B7E1BBB8206CDC1600159F9F /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
